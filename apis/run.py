@@ -10,11 +10,11 @@ class RunProject(MethodView):
       """
       def get(self):
             # get data from api and save it in a json file 
-            data_from_api = get_data.get_data(self);
+            data_from_api = get_data.get(self);
             # read json file and return data as string
             read_data = get_data.read_data_from_json_file(data_from_api)
             # data will be converted to list to be able to work on it 
-            data_list = list(eval(read_data))
-           
-            return data_list
+            # data_list = list(eval(read_data))
+      #      
+            return read_data
             
