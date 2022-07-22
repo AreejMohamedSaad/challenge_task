@@ -7,7 +7,6 @@ import os
 class RunProject(MethodView):
       """
       Run project from this url (certain data from url )
-      you will get data filtered modified sorted 
       """
       def get(self):
             # get data from api and save it in a json file 
