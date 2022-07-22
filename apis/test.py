@@ -35,40 +35,59 @@ def get_data(data):
 
 data = [
     {
-        "id": 108,
-        "name": "Zohannesgasse",
-        "status": "true",
-        "description": "Ecke Lichtenfelsgasse U2 Station Rathaus",
-        "free_bikes": 5,
-        "longitude": 16.356581,
-        "latitude": 48.211433,
-        "internal_id": 1026,
-        "boxes": 30, 
-        "free_boxes": 29
+        "name": "Admiral",
+        "species": "Bird",
+        "personality": "Cranky",
+        "gender": "Male",
+        "birthday": {
+            "month": 1,
+            "day": 27,
+            "text": "January 27th"
+        }
     },
     {
-        "id": 109,
-        "name": "Friedrich",
-        "status": "true",
-        "description": "Parkring / Stadtpark beim Haupteingang des Kursalons",
-        "free_bikes": 5,
-        "longitude": 16.376719,
-        "latitude": 48.203366,
-        "internal_id": 1029,
-        "boxes": 30, 
-        "free_boxes": 29
+        "name": "Agent S",
+        "species": "Squirrel",
+        "personality": "Peppy",
+        "gender": "Female",
+        "birthday": {
+            "month": 7,
+            "day": 2,
+            "text": "July 2nd"
+        }
     },
     {
-        "id": 112,
-        "name": "Ring",
-        "status": "false",
-        "description": "Ecke Akademiestra\u00dfe in der Mitte der beiden Einkaufszentren der Ringstra\u00dfengalerien",
-        "free_bikes": 2,
-        "longitude": 16.371317,
-        "latitude": 48.202157,
-        "internal_id": 1028,
-        "boxes": 30,
-        "free_boxes": 29
+        "name": "Agnes",
+        "species": "Pig",
+        "personality": "Sisterly",
+        "gender": "Female",
+        "birthday": {
+            "month": 4,
+            "day": 21,
+            "text": "April 21st"
+        }
+    },
+    {
+        "name": "Al",
+        "species": "Gorilla",
+        "personality": "Lazy",
+        "gender": "Male",
+        "birthday": {
+            "month": 10,
+            "day": 18,
+            "text": "October 18th"
+        }
+    },
+    {
+        "name": "Alfonso",
+        "species": "Alligator",
+        "personality": "Lazy",
+        "gender": "Male",
+        "birthday": {
+            "month": 6,
+            "day": 9,
+            "text": "June 9th"
+        }
     }
     ]
 
